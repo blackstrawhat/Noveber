@@ -643,6 +643,9 @@ http://wpc.d1627.nucdn.net:80/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Str
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 https://av-live-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
+#EXTINF:0 tvg-logo="https://github.com/RizkyWebID/IPTV-Streaming/raw/main/imagecache/logo_spotv.png" group-title="SPORTS LOKAL", SPOTV
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 https://anv-livechannel-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
 #EXTINF:-1 group-title="SPORTS LOKAL" tvg-logo="https://assetsmysky.blob.core.windows.net/assetsmysky/production/media-upload/1634257286_thumb-spotv.png",SPOTV
 https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/playlist.m3u8
@@ -650,7 +653,12 @@ https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/
 #EXTINF:0 tvg-logo="https://github.com/RizkyWebID/IPTV-Streaming/raw/main/imagecache/logo_spotv2.png" group-title="SPORTS LOKAL", SPOTV 2
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-https://av-live-cdn.mncnow.id/live/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
+https://anevia114.mncnow.id/live/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
+#EXTINF:0 tvg-logo="https://github.com/RizkyWebID/IPTV-Streaming/raw/main/imagecache/logo_spotv2.png" group-title="SPORTS LOKAL", SPOTV 2
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+https://liveaneviadev.mncnow.id/live/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
+
 
 #EXTINF:-1 group-title="SPORTS LOKAL" tvg-logo="https://assetsmysky.blob.core.windows.net/assetsmysky/production/media-upload/1634257305_thumb-spotv-2.png",SPOTV 2
 https://bcovlive-a.akamaihd.net/48eee16919834d3b97df1082a649bcfa/ap-northeast-1/6271486521001/playlist.m3u8
