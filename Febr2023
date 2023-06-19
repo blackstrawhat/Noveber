@@ -370,7 +370,7 @@ http://210.210.155.35/session/3074917a-7514-11ec-900b-c81f66f89318/uq2663/h/h194
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://gausahcopybesokilang.satvb.workers.dev/
-#EXTINF:-1 tvg-id="712.astro" tvg-logo="https://images.useetv.com/logo_warner_small.png" group-title="ENTERTAINMENT",Warner TV (T*)
+#EXTINF:-1 tvg-id="712.astro" tvg-logo="https://images.useetv.com/logo_warner_small.png" group-title="Movies",Warner TV (T*)
 https://cdnjkt2.transvision.co.id:1001/live/master/4/4028c6856c3db2cc016cf0b533fe73e3/manifest.mpd
 #EXTINF:0 tvg-id="" tvg-name="" tvg-logo="http://dusktill.masuk.web.id/img/warner.png" group-title="Movies",Warner TV
 http://aflaxtv.xyz:8080/gerard/WrzTcsRqNRBft7bL/157594
@@ -522,16 +522,11 @@ http://rr.dens.tv/h/h08/index.m3u8
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTINF:0 tvg-id="One.Id" tvg-logo="https://cdn.ksa.my.id/sonyone.png" group-title="Movies Asia",One
 https://av-live-cdn.mncnow.id/live/eds/SetOne/sa_dash_vmx/SetOne.mpd
-#EXTINF:-1 group-title="Movies Asia",One (max)
-https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(5a29bc89-80f2-4005-8fda-e2b8662af2df)/manifest.mpd
+
 #EXTINF:-1  tvg-id="ext" group-title="Movies Asia" tvg-logo="https://i.imgur.com/rGTHbAM.png", Sony GEM
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0403e654ddab419db6cc72bb3fa51248:9d43bcc51f3750550d321cdc37e57cc9
-https://tglmp01.akamaized.net/out/v1/acd34a6d1e2540f888793461457b77e1/manifest.mpd
-#EXTINF:-1 group-title="Movies Asia",GEM
 http://185.243.7.13/play/live.php?mac=00:1A:79:45:5E:9A&stream=941635&extension=ts&play_token=ovIlzYCoic
-#EXTINF:0 tvg-id="" tvg-logo="" group-title="Movies Asia",Gem (max)
-https://cdn-telkomsel-01.akamaized.net/Content/DASH/Live/channel(9e88c4b0-8f52-4d81-9954-943e8cce1b71)/manifest.mpd
+#EXTINF:-1  tvg-id="ext" group-title="Movies Asia" tvg-logo="https://i.imgur.com/rGTHbAM.png", Sony GEM
+https://github.com/mimipipi22/nontontv/raw/main/FMX/gem.m3u8
 
 
 #EXTINF:-1 group-title="Movies Asia",Animax
