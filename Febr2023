@@ -313,9 +313,11 @@ https://cdnjkt2.transvision.co.id:1001/live/master/3/4028c6856c3db2cc016d0552e0c
 #EXTINF:-1 tvg-id="414.astro" tvg-logo="https://i.imgur.com/Okzj190.png" group-title="Movies",HBO Family
 https://cdnjkt2.transvision.co.id:1001/live/master/4/4028c6856c3db2cc016d055927fe37a4/manifest.mpd
 
-#EXTINF:-1 tvg-id="414.astro" tvg-logo="https://i.imgur.com/Okzj190.png" group-title="Movies",HBO Family HD
+
 #EXTINF:-1 group-title="Movies" tvg-id="hboasia.sg" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_160_115",HBO
-http://103.180.119.90:9911/stream/channelid/449896538?profile=pass
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cubmudrmpunyaku.garudatvvip.workers.dev/
+https://cdnjkt2.transvision.co.id:1001/live/master/3/4028c6856b6088c3016b87d64b970b53/manifest.mpd
 
 #EXTINF:-1 group-title="Movies" tvg-id="hbofamilyasia.sg" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch112_160_115",HBO Family
 http://103.180.119.90:9911/stream/channelid/167353337?profile=pass
