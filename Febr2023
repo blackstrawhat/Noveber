@@ -4,7 +4,7 @@
 //TV NASIONAL Update 
 #EXTINF:-1 group-title="UPDATE", FEBRUARI PREMIUM
 https://1fdd483b2dde.eu-central-1.playback.live-video.net/api/video/v1/eu-central-1.781001535613.channel.QbhdYoH7da2u.m3u8
-#EXTINF:-1 group-title="TV NASIONAL",UPDATE 21 JULI 2023
+#EXTINF:-1 group-title="TV NASIONAL",UPDATE 5 SEPTEMBER 2023
 https://1fdd483b2dde.eu-central-1.playback.live-video.net/api/video/v1/eu-central-1.781001535613.channel.QbhdYoH7da2u.m3u8
 #EXTINF:-1 group-title="TV NASIONAL",RCTI+
 #EXTVLCOPT:http-referrer=http://m.rctiplus.com
@@ -24,9 +24,9 @@ https://anevia114.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 https://av-live-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd
 #EXTINF:0 tvg-logo="https://static.epg.best/id/RCTI.id.png" group-title="TV NASIONAL" tvg-id="089" tvg-name="089-RCTI", RCTI+
-http://gamsgo.cyou:8080/adastream/J2DVrYWnpTu3Sk4W/157591
+
 #EXTINF:0 tvg-logo="https://static.epg.best/id/RCTI.id.png" group-title="TV NASIONAL" tvg-id="089" tvg-name="089-RCTI", RCTI Digital
-http://103.180.119.90:9911/stream/channelid/172523773?profile=pass
+
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
@@ -55,17 +55,30 @@ http://rr2.dens.tv/s/s07/index.m3u8
 https://anevia114.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd
 
 #EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://www.useetv.com/assets/images/channel/logo_sctv_small1.png?v=2.0.0.15",SCTV
-http://rr2.dens.tv/s/s03/index.m3u8
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTHTTP:{"dt-custom-data":"eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gausahcopybesokilang.satvb.workers.dev/
+#EXTINF:-1 tvg-id="411.astro" tvg-logo="https://www.useetv.com/assets/images/channel/logo_sctv_small1.png?v=2.0.0.15" group-title="TV NASIONAL",SCTV (T)
+https://cdnjkt2.transvision.co.id:1001/live/master/100/4028c68587f789fe018804f4bbb52813/manifest.mpd
 #EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://www.useetv.com/assets/images/channel/logo_sctv_small1.png?v=2.0.0.15",SCTV Dens
 http://210.210.155.35/qwr9ew/s/s03/01.m3u8
 #EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://www.useetv.com/assets/images/channel/logo_sctv_small1.png?v=2.0.0.15",SCTV HD
-http://aflaxtv.xyz:8080/gerard/WrzTcsRqNRBft7bL/162141
+
 #EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://www.useetv.com/assets/images/channel/logo_indosiar_small1.png?v=2.0.0.15",INDOSIAR
-http://103.180.119.90:9911/stream/channelid/1706517786?profile=pass
-#EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://www.useetv.com/assets/images/channel/logo_indosiar_small1.png?v=2.0.0.15",Indosiar Dens
-http://rr2.dens.tv/s/s04/index.m3u8
+http://210.210.155.35/qwr9ew/s/s04/02.m3u8
+#EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://www.useetv.com/assets/images/channel/logo_indosiar_small1.png?v=2.0.0.15",Indosiar (Trans)
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTHTTP:{"dt-custom-data":"eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://gausahcopybesokilang.satvb.workers.dev/
+#EXTINF:-1 tvg-id="411.astro" tvg-logo="https://www.useetv.com/assets/images/channel/logo_indosiar_small1.png?v=2.0.0.15" group-title="TV NASIONAL",Indosiar (T)
+https://cdnjkt2.transvision.co.id:1001/live/master/1/4028c6856c3db2cc016cd6e773b02392/manifest.mpd
+
 #EXTINF:-1 group-title="TV NASIONAL" tvg-logo="https://www.useetv.com/assets/images/channel/logo_indosiar_small1.png?v=2.0.0.15",Indosiar Digital
-http://gamsgo.cyou:8080/adastream/J2DVrYWnpTu3Sk4W/162138
+
 #EXTINF:-1 tvg-id="OChannel.id" tvg-name="O Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moji_blue.svg/1200px-Moji_blue.svg.png" group-title="TV NASIONAL",Moji
 http://210.210.155.35/qwr9ew/s/s41/index.m3u8
 #EXTINF:-1 tvg-id="OChannel.id" tvg-name="O Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moji_blue.svg/1200px-Moji_blue.svg.png" group-title="TV NASIONAL",Moji
@@ -108,11 +121,11 @@ https://nyanv-live-cdn.mncnow.id/live/eds/NetTV-HD/sa_dash_vmx/NetTV-HD.mpd
 #EXTINF:-1 tvg-logo="http://dusktill.masuk.web.id/img/net.png" group-title="TV NASIONAL",NET TV
 http://210.210.155.35/qwr9ew/s/s08/01.m3u8
 #EXTINF:-1 group-title="TV NASIONAL",TVRI NASIONAL
-https://dl.dropbox.com/s/l5j2hh2e45y650w/3f58825fe229a8f.m3u8
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRINASIONAL)/stream4/streamPlaylist.m3u8
 #EXTINF:-1 group-title="TV NASIONAL",TVRI NASIONAL
-http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINasional)/Stream(04)/index.m3u8
+
 #EXTINF:-1 group-title="TV NASIONAL",TVRI WORLD
-http://wpc.d1627.nucdn.net:80/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI3)/Stream(03)/index.m3u8
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI3)/stream3/streamPlaylist.m3u8
 #EXTINF:-1 group-title="TV NASIONAL",RANS TV
 https://live-production.secureswiftcontent.com/exp=1672070458~acl=/hls-p/ingest_8241_*/*~hmac=af44fcc970e16557e873c1a4673c4c47c1f1aa5131e63dc56f503308b613cefb/hls-p/ingest_8241_720p/index.m3u8
 #EXTINF:-1 group-title="TV NASIONAL",Usee Prime
@@ -277,8 +290,7 @@ https://av-live-cdn.mncnow.id/live/eds/FoxNews/sa_dash_vmx/FoxNews.mpd
 https://cdnjkt2.transvision.co.id:1001/live/master/3/4028c6856b6088c3016b87d64b970b53/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://www.pngplay.com/wp-content/uploads/7/Hbo-Transparent-File.png" group-title="Movies", HBO
-http://103.180.119.90:9911/stream/channelid/449896538?profile=pass
-
+http://aflaxtv.xyz:8080/Giobox2/aPnVqQVT6GXhu92E/197972
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #EXTHTTP:{"dt-custom-data":"eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -816,7 +828,7 @@ https://newanv-live-cdn.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerch
 https://av-live-cdn.mncnow.id/live/eds/soccerchannel-HD/sa_dash_vmx/soccerchannel-HD.mpd
 
 #EXTINF:-1 group-title="SPORTS LOKAL", TVRI Sport
-http://wpc.d1627.nucdn.net:80/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/Stream(03)/index.m3u8
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/stream3/streamPlaylist.m3u8
 
 #EXTINF:0 tvg-logo="https://github.com/RizkyWebID/IPTV-Streaming/raw/main/imagecache/logo_spotv.png" group-title="SPORTS LOKAL", SPOTV
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
