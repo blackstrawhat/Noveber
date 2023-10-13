@@ -2,7 +2,7 @@
 #EXTM3U
 //LIVE
 //TV NASIONAL Update 
-#EXTINF:-1 group-title="UPDATE", FEBRUARI 2024
+#EXTINF:-1 group-title="UPDATE", EXP FEBRUARI 2024
 https://1fdd483b2dde.eu-central-1.playback.live-video.net/api/video/v1/eu-central-1.781001535613.channel.QbhdYoH7da2u.m3u8
 #EXTINF:-1 group-title="TV NASIONAL",UPDATE 13 OKTOBER 2023
 https://1fdd483b2dde.eu-central-1.playback.live-video.net/api/video/v1/eu-central-1.781001535613.channel.QbhdYoH7da2u.m3u8
