@@ -169,6 +169,9 @@ https://mangga-live-cdn.mncnow.id/live/eds/KompasTV/sa_dash_vmx/KompasTV.mpd|ref
 http://op-group1-swiftservehd-1.dens.tv/h/h234/02.m3u8
 #EXTINF:-1 group-title="BERITA" tvg-logo="https://www.mncvision.id/userfiles/image/channel/metro_tv.png",Metro TV
 http://op-group1-swiftservehd-1.dens.tv/h/h211/02.m3u8
+#EXTINF:-1 group-title="BERITA" tvg-logo="https://www.mncvision.id/userfiles/image/channel/metro_tv.png",Metro TV
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch394%29/Stream(02)/index.m3u8
+
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTINF:0 tvg-id="MetroTV.Id" tvg-logo="https://cdn.ksa.my.id/metrotv.png" group-title="BERITA",Metro TV
@@ -177,6 +180,9 @@ https://nyanv-live-cdn.mncnow.id/live/eds/Metro-TV2/sa_dash_vmx/Metro-TV2.mpd|re
 https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
 #EXTINF:-1 group-title="BERITA",CCTV 4
 http://op-group1-swiftservehd-1.dens.tv/h/h228/02.m3u8
+#EXTINF:-1 group-title="BERITA",IDX
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch389%29/Stream(02)/index.m3u8
+
 #EXTINF:-1 group-title="BERITA",BERITA SATU
 https://b1news.beritasatumedia.com/Beritasatu/B1News_1280x720.m3u8
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -386,8 +392,6 @@ http://208.115.225.174:14165
 http://208.115.225.174:14160
 
 //MOVIES ASIA
-#EXTINF: -1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHWPZAEX10uqUxUytHwuHnNKTDTwm3iUFbZA&usqp=CAU" group-title="Movies Asia",Citra Bioskop
-http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch376%29/Stream(02)/index.m3u8
 #EXTINF:0 tvg-id="Celestial Movies" tvg-name="Celestial Movies" tvg-url="https://cdn.ksa.my.id/cm.png" tvg-logo="http://dusktill.masuk.web.id/img/cm.png" group-title="Movies Asia",Celestial Movies
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
@@ -446,6 +450,9 @@ http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch343%29/Strea
 https://nyanv-live-cdn.mncnow.id/live/eds/KIX/sa_dash_vmx/KIX.mpd|referer=https://www.visionplus.id
 #EXTINF:-1  tvg-id="ext" group-title="Movies Asia" tvg-logo=""https://www.appcreator24.com/srv/imgs/seccs/9428328_ico.png, KIX
 http://op-group1-swiftservehd-1.dens.tv/h/h220/02.m3u8
+#EXTINF:-1  tvg-id="ext" group-title="Movies Asia" tvg-logo=""https://www.appcreator24.com/srv/imgs/seccs/9428328_ico.png, KIX
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch336%29/Stream(02)/index.m3u8
+
 #EXTINF:-1 group-title="Movies Asia",SONY MAX (India)
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch174%29/Stream(02)/index.m3u8
 
@@ -481,6 +488,16 @@ https://nyanv-live-cdn.mncnow.id/live/eds/SetOne/sa_dash_vmx/SetOne.mpd|referer=
 
 #EXTINF:-1  tvg-id="ext" group-title="Movies Asia" tvg-logo="https://i.imgur.com/rGTHbAM.png", Sony GEM
 
+#EXTINF: -1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHWPZAEX10uqUxUytHwuHnNKTDTwm3iUFbZA&usqp=CAU" group-title="Movies Asia",Citra Bioskop
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch376%29/Stream(02)/index.m3u8
+#EXTINF: -1 tvg-logo="" group-title="Movies Asia",Citra Muslim
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch334%29/Stream(02)/index.m3u8
+#EXTINF: -1 tvg-logo="" group-title="Movies Asia",Citra Dangdut
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch377%29/Stream(02)/index.m3u8
+#EXTINF: -1 tvg-logo="" group-title="Movies Asia",Citra Drama
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch378%29/Stream(02)/index.m3u8
+#EXTINF: -1 tvg-logo="" group-title="Movies Asia",Citra Entertainment
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch379%29/Stream(02)/index.m3u8
 
 #EXTINF:-1 group-title="Movies Asia",Animax
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -566,7 +583,10 @@ https://mangga-live-cdn.mncnow.id/live/eds/Kids-HD/sa_dash_vmx/Kids-HD.mpd|refer
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 #EXTINF:0 tvg-id="CartoonNetwork.Id" tvg-logo="https://cdn.ksa.my.id/cartoonnetwork.png" group-title="TV ANAK",Cartoon Network
 
-
+#EXTINF:-1 group-title="TV Anak",Cartonito
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch372%29/Stream(02)/index.m3u8
+#EXTINF:-1 group-title="TV Anak",HORE
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch375%29/Stream(02)/index.m3u8
 
 #EXTINF:0 tvg-logo="https://github.com/RizkyWebID/IPTV-Streaming/raw/main/imagecache/logo_kidschannel.png" group-title="TV ANAK", Kids Channel
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -586,7 +606,9 @@ https://hncfree-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Pengetahuan",DA VINCI
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch371%29/Stream(02)/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Pengetahuan",STING RAY Nature Scape
-http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch336%29/Stream(02)/index.m3u8
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch367%29/Stream(02)/index.m3u8
+
+
 #EXTINF:-1 tvg-logo="" group-title="Pengetahuan",Global Treker
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch366%29/Stream(02)/index.m3u8
 #EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://cms.bbcasia.com/sites/default/files/2021-05/BBC%20Earth_0.png" group-title="Pengetahuan",BBC Earth
@@ -678,6 +700,8 @@ https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u
 https://smithsonianaus-samsungau.amagi.tv/playlist480p.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="Pengetahuan",LOVE NATURE 4K
 https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Pengetahuan",LOVE NATURE
+http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel%28ch368%29/Stream(02)/index.m3u8
 #EXTINF:-1 group-title="Pengetahuan",NASA Channel
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
 #EXTINF:-1 group-title="Pengetahuan",BIZNET Adventure
